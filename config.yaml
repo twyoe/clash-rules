@@ -43,15 +43,15 @@ proxy-groups:
       - 🔯 故障转移
       - DIRECT
     use:
-      - knjc
       - nutbit
+      - knjc
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     use:
-      - knjc
       - nutbit
+      - knjc
   - name: 🌍 国外媒体
     type: select
     url: http://www.gstatic.com/generate_204
@@ -61,8 +61,8 @@ proxy-groups:
       - 🎯 全球直连
     interval: 300
     use:
-      - knjc
       - nutbit
+      - knjc
   - name: 📲 电报信息
     type: select
     url: http://www.gstatic.com/generate_204
@@ -71,8 +71,8 @@ proxy-groups:
       - 🎯 全球直连
     interval: 300
     use:
-      - knjc
       - nutbit
+      - knjc
   - name: Ⓜ️ 微软服务
     type: select
     url: http://www.gstatic.com/generate_204
@@ -81,8 +81,8 @@ proxy-groups:
       - 🎯 全球直连
     interval: 300
     use:
-      - knjc
       - nutbit
+      - knjc
   - name: 🍎 苹果服务
     type: select
     url: http://www.gstatic.com/generate_204
@@ -91,8 +91,8 @@ proxy-groups:
       - 🎯 全球直连
     interval: 300
     use:
-      - knjc
       - nutbit
+      - knjc
   - name: 📢 谷歌FCM
     type: select
     url: http://www.gstatic.com/generate_204
@@ -101,8 +101,8 @@ proxy-groups:
       - 🎯 全球直连
     interval: 300
     use:
-      - knjc
       - nutbit
+      - knjc
   - name: 🎯 全球直连
     type: select
     url: http://www.gstatic.com/generate_204
@@ -112,8 +112,8 @@ proxy-groups:
       - ♻️ 自动选择
     interval: 300
     use:
-      - knjc
       - nutbit
+      - knjc
   - name: 🐟 漏网之鱼
     type: select
     url: http://www.gstatic.com/generate_204
@@ -123,14 +123,14 @@ proxy-groups:
       - ♻️ 自动选择
     interval: 300
     use:
-      - knjc
       - nutbit
+      - knjc
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     use:
-      - knjc
       - nutbit
+      - knjc
 
 rule-providers:
   reject:
