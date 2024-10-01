@@ -1,2 +1,2 @@
-linux.do
-shared.oaifree.com
+domain:linux.do
+domain:shared.oaifree.com
