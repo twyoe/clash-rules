@@ -16,7 +16,7 @@ jobs:
         run: |
           echo "RELEASE_NAME=Released on $(date +%Y%m%d%H%M)" >> $GITHUB_ENV
           echo "TAG_NAME=$(date +%Y%m%d%H%M)" >> $GITHUB_ENV
-          echo "custom_rules=https://raw.githubusercontent.com/twyoe/clash-rules/refs/heads/hidden/proxy.txt" >> $GITHUB_ENV
+          echo "custom_rules=https://raw.githubusercontent.com/twyoe/clash-rules/hidden/custom.txt" >> $GITHUB_ENV
         shell: bash
 
       - name: Checkout the "hidden" branch
