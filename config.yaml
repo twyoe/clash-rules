@@ -129,8 +129,8 @@ proxy-groups:
     type: fallback
     url: http://www.gstatic.com/generate_204
     use:
-      - nutbit
       - knjc
+      - nutbit
 
 rule-providers:
   reject:
